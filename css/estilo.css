@@ -1,6 +1,7 @@
 /*https://www.cssmatic.com/box-shadow*/
 body
 {
+  background: #1e1f24;
   color: #334;
   text-aling: center;
   font-family: "Arial";
@@ -17,6 +18,12 @@ body
   font-weight: bold;
   margin: 0;
   padding: 0.5em;
+}
+
+#cabecera #logo
+{
+  width: 20px;
+  vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -42,5 +49,6 @@ body
 
 #post
 {
+  background: white;
   padding: 1em;
 }
